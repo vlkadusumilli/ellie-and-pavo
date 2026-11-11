@@ -4,53 +4,64 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ellie &amp; Pavo: Support</title>
-<style>
-  :root { --ink: #1d1b33; --muted: #5b5872; --accent: #e0719a; --teal: #1f9e92; --bg: #fbf8f3; }
-  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-  main { max-width: 42rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
-  h1 { font-size: 2rem; margin: 0 0 .25rem; }
-  h1 span.e { color: var(--accent); } h1 span.p { color: var(--teal); }
-  h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; }
-  table { border-collapse: collapse; width: 100%; font-size: .95rem; }
-  th, td { text-align: left; padding: .45rem .5rem; border-bottom: 1px solid #e6e1d8; vertical-align: top; }
-  th { color: var(--muted); font-weight: 600; }
-  .muted { color: var(--muted); } a { color: var(--teal); }
-</style>
+<meta name="description" content="Help, controls and common questions for Ellie &amp; Pavo.">
+<link rel="icon" href="img/icon.png">
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
+<header class="top">
+  <div class="bar">
+    <a class="brand" href="./"><img src="img/icon.png" alt=""><span>Ellie &amp; Pavo</span></a>
+    <nav class="nav" aria-label="Pages">
+      <a href="./">Home</a>
+      <a href="support.html" aria-current="page">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </div>
+  <div class="hero small">
+    <h1>Support</h1>
+    <p class="sub">Help, controls and common questions</p>
+  </div>
+</header>
 <main>
-  <h1><span class="e">Ellie</span> &amp; <span class="p">Pavo</span>: Support</h1>
-  <p>Need a hand? Write to <a href="mailto:midway_inferno_1p@icloud.com">midway_inferno_1p@icloud.com</a> and we'll help. Please tell us your device (Apple TV, iPad or Mac) and which level you're on.</p>
+  <div class="card contact">
+    <img src="img/ellie.png" alt="">
+    <p><strong>Need a hand?</strong> Write to <a href="mailto:midway_inferno_1p@icloud.com">midway_inferno_1p@icloud.com</a> and we'll help. Please tell us your device (Apple TV or iPad) and which level you're on.</p>
+  </div>
 
   <h2>What you need to play</h2>
-  <ul>
-    <li><strong>iPad:</strong> a game controller for each player (PlayStation, Xbox, Nintendo Switch Pro or other MFi controllers work).</li>
-    <li>Apple TV: a game controller for each player is best. The Siri Remote also plays, with the computer partner as the other hero.</li>
-    <li><strong>Mac:</strong> a controller, or the keyboard (two players can share one keyboard).</li>
-    <li>One player can play alone, switching between Ellie and Pavo, or turn on the computer buddy in Settings.</li>
+  <ul class="plain">
+    <li><strong>Apple TV and iPad:</strong> a game controller for each player (PlayStation, Xbox, Nintendo Switch Pro or other MFi controllers work).</li>
+    <li><strong>Playing alone:</strong> one player can switch between Ellie and Pavo, or turn on the computer buddy in Settings.</li>
   </ul>
 
   <h2>Controls</h2>
+  <div class="tablewrap">
   <table>
-    <tr><th>Action</th><th>Controller</th><th>Keyboard (Player 1 / Player 2)</th></tr>
-    <tr><td>Move</td><td>Left stick or D-pad</td><td>A D / ← →</td></tr>
-    <tr><td>Jump (Pavo: again to flutter, hold to glide; Ellie: near a hook to grab it)</td><td>A / ✕</td><td>Space / Right Shift</td></tr>
-    <tr><td>Ellie: puff, or stomp in the air · Pavo: sing</td><td>X / □</td><td>F / .</td></tr>
-    <tr><td>Ellie: carry, then throw Pavo · Pavo: hold Ellie's string</td><td>RT / R2</td><td>E / ,</td></tr>
-    <tr><td>Swap heroes</td><td>Y / △</td><td>Tab / Return</td></tr>
-    <tr><td>Hint · Pause</td><td>LB / L1 · Menu</td><td>H · Esc</td></tr>
+    <tr><th>Action</th><th>Xbox</th><th>PlayStation</th></tr>
+    <tr><td>Move</td><td>Left stick or D-pad</td><td>Left stick or D-pad</td></tr>
+    <tr><td>Jump <span class="muted" style="font-weight:400">(Pavo: again to flutter, hold to glide; Ellie: near a hook to grab it)</span></td><td>A</td><td>✕</td></tr>
+    <tr><td>Ellie: puff, or stomp in the air · Pavo: sing</td><td>X</td><td>□</td></tr>
+    <tr><td>Ellie: carry, then throw Pavo · Pavo: hold Ellie's string</td><td>RT</td><td>R2</td></tr>
+    <tr><td>Swap heroes</td><td>Y</td><td>△</td></tr>
+    <tr><td>Hint</td><td>LB</td><td>L1</td></tr>
+    <tr><td>Pause</td><td>Menu</td><td>Options</td></tr>
   </table>
-  <p class="muted">Player 2 joins any time by pressing jump.</p>
-
-  <p>At the end of a level, jump skips the celebration, and the special button (X / □) joins the dance.</p>
+  </div>
+  <p class="muted">Player 2 joins any time by pressing jump. At the end of a level, jump skips the celebration, and the special button (X / □) joins the dance.</p>
 
   <h2>Common questions</h2>
-  <p><strong>We're stuck.</strong> Press the hint button (LB / L1) or open the pause menu and choose Hint. Many places need both heroes: Pavo can sing away fog and hidden paths, Ellie can stomp cracked stones and carry Pavo through the wind.</p>
-  <p><strong>A younger player finds it hard.</strong> In Settings, turn on "Extra help" for their hero: bumps and brambles don't take air, and jumps are more forgiving.</p>
-  <p><strong>Where's my progress?</strong> It's saved automatically on this device after each level.</p>
-  <footer style="margin-top:3rem;padding-top:1rem;border-top:1px solid #e6e1d8;color:#5b5872;font-size:.9rem">
-    Ellie &amp; Pavo is made by <strong>millWorks</strong>, an Adusumilli Production. © 2026 millWorks.
-  </footer>
+  <ul class="plain">
+    <li><strong>We're stuck.</strong> Press the hint button (LB / L1) or open the pause menu and choose Hint. Many places need both heroes: Pavo can sing away fog and hidden paths, Ellie can stomp cracked stones and carry Pavo through the wind.</li>
+    <li><strong>A younger player finds it hard.</strong> In Settings, turn on "Extra help" for their hero: bumps and brambles don't take air, and jumps are more forgiving.</li>
+    <li><strong>Where's my progress?</strong> It's saved automatically on this device after each level.</li>
+  </ul>
 </main>
+<footer>
+  <div class="in">
+    <div>Ellie &amp; Pavo is made by <strong>millWorks</strong>, an Adusumilli Production. © 2026 millWorks.</div>
+    <div><a href="support.html">Support</a> · <a href="privacy.html">Privacy</a> · <a href="mailto:midway_inferno_1p@icloud.com">Contact</a></div>
+  </div>
+</footer>
 </body>
 </html>
